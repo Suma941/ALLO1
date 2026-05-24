@@ -35,7 +35,7 @@ This is a Next.js (App Router) application designed to handle real-time inventor
 Create a `.env` file in the root directory and specify your database connection string:
 ```bash
 # In your .env file
-DATABASE_URL="postgresql://username:password@hostname:5432/database?schema=public"
+DATABASE_URL="postgresql://neondb_owner:npg_6Ore7uHETZyN@ep-little-band-aqwp1xvu-pooler.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 RESERVATION_EXPIRY_SECONDS=600 # 10 minutes hold
 ```
 
